@@ -5,6 +5,8 @@ Login/Registration page example on php, with js (jQuery), html, css.
 ![PHP](https://img.shields.io/badge/PHP-8.2.12-blue)
 ![jQuery](https://img.shields.io/badge/jQuery-3.7.0-brightgreen)
 
+![RegistrationExampleImage](https://i.imgur.com/sfJwJTX.png)
+
 ## Description
 
 This is an example of registration and authorization in **PHP (v8.2.12)** without using a database **(without checking the password and mail)**. It uses the **JavaScript framework jQuery v3.7.0, html and css**. This is a simple and illustrative example to find out how it all works.
