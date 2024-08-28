@@ -1,0 +1,141 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    background-color: #292828;
+}
+
+.pageWrapper {
+    height: 100vh;
+    display: flex;
+	justify-content: center;
+}
+
+.regFormBlock > h2 {
+    text-align: center;
+}
+
+.regFormBlock {
+    width: 30%;
+    border-radius: 12px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.24);
+    padding: 15px 35px;
+}
+
+@media screen and (max-width: 480px) {
+    .regFormBlock {
+        width: 90%;
+        height: 70%;
+    }
+}
+
+.formBlock {
+    text-align: center;
+}
+
+.regForm {
+    margin-top: 25px;
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 90%;
+    background: #292828;
+    border: none;
+    padding: 10px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+input:focus, input:focus-visible {
+    background: #292828;
+    border: none;
+}
+
+
+.labelInput {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    padding: 12px;
+    transition: 300ms;
+    margin-bottom: 4px;
+}
+
+.submitButton:hover:not(.disabled) {
+    background: #363434;
+    cursor: pointer;
+}
+
+.submitButton.disabled {
+    background: #242424;
+}
+
+input#password {
+    margin-bottom: 6px;
+}
+
+.inputHint {
+    font-size: 13px;
+}
+
+.inputError {
+    font-size: 13px;
+    color: rgb(218, 78, 78);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+a:hover {
+    color: rgba(119, 116, 116, 1);
+}
+
+.inputError {
+    margin-top: 7px;
+}
+
+.inputRelativeIcon {
+    position: absolute;
+    right: 15px;
+    line-height: 30px;
+    top: 54%;
+    font-size: 15px;
+    width: 36px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(148, 148, 148);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#showPassword {
+    cursor: pointer;
+}
