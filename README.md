@@ -1,5 +1,5 @@
 # PHP Login / Registration Page Example
-Login/Registration page exampla on php, with js (jQuery), html, css.
+Login/Registration page example on php, with js (jQuery), html, css.
 
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![PHP](https://img.shields.io/badge/PHP-8.2.12-blue)
